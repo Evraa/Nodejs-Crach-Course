@@ -1,13 +1,12 @@
 ## What to learn?
-    + handling files (read/write/delete)
+    + showing how stream works
+    + it is important when dealing with large data like videos
+        and you need to read chunk of data one at a time.
 
 ## Keywords
-    + files
-    + readFile
-    + writeFile
-    + mkdir
-    + existsSync
-    + unlink (to delete a file..)
+    + createReadStream
+    + encoding
+    + createWriteStream
 
 ## To Run:
-`node 2_files.js`
+`node 3_streams.js`
