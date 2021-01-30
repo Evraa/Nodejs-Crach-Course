@@ -1,10 +1,13 @@
 ## What to learn?
-    + importing/exporting files
-    + importing built in modules (eg. os)
+    + handling files (read/write/delete)
 
 ## Keywords
-    + require
-    + exports
+    + files
+    + readFile
+    + writeFile
+    + mkdir
+    + existsSync
+    + unlink (to delete a file..)
 
 ## To Run:
-`node 1_modules.js`
+`node 2_files.js`
