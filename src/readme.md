@@ -1,16 +1,18 @@
 ## What to learn?
-    + receiving requests and interpreting them.
-    + sendin responses with html pages and appropriate status code
-    + routing pages
-    + rediricting pages.
+    + install nodemon for auto refresh (globally)
+    + creating packages json file to keep track of any upcoming changes.
+    + install packages
 
 
 ## Keywords
-    + request
-    + responce
-    + setHeader
-    + statusCode
-    + routing
+    + package.json (npm init)
+    + npm
+    + nodemon
+    + trying out (lodash) library
+    + npm install
+
+## Requirement
+`sudo npm install -g nodemon`
 
 ## To Run:
-`node 5_server.js`
+`nodemon 6_server.js`

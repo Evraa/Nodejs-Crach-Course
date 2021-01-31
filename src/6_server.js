@@ -1,10 +1,22 @@
 const http = require('http');
 const fs = require('fs');
+const _ = require('lodash');
 
 //this server object is not used yet..
 const server = http.createServer((req, res) => {
     //log the request url
     console.log(req.url);
+
+    //lodash:
+    //random int
+    const num = _.random(0,100);
+    console.log(num);
+    //execute this once
+    const execOnce = _.once(()=>{
+        console.log("This will be called only once.");
+    });
+    execOnce();
+    execOnce();
 
     //set the header content type
     //you may send html, json, strings...
