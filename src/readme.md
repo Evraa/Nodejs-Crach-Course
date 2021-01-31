@@ -1,10 +1,16 @@
 ## What to learn?
-    + connecting to server
-    + listening on a port
+    + receiving requests and interpreting them.
+    + sendin responses with html pages and appropriate status code
+    + routing pages
+    + rediricting pages.
+
 
 ## Keywords
-    + client/server
-    + localhost
+    + request
+    + responce
+    + setHeader
+    + statusCode
+    + routing
 
 ## To Run:
-`node 4_server.js`
+`node 5_server.js`
