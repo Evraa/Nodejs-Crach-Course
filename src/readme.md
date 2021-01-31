@@ -1,12 +1,10 @@
 ## What to learn?
-    + showing how stream works
-    + it is important when dealing with large data like videos
-        and you need to read chunk of data one at a time.
+    + connecting to server
+    + listening on a port
 
 ## Keywords
-    + createReadStream
-    + encoding
-    + createWriteStream
+    + client/server
+    + localhost
 
 ## To Run:
-`node 3_streams.js`
+`node 4_server.js`
