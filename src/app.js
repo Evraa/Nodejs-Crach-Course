@@ -1,5 +1,6 @@
 const express = require('express');
 const path = require('path');
+const morgan = require('morgan');
 
 //express app
 const app = express();
@@ -8,10 +9,21 @@ const app = express();
 app.set('view engine', 'ejs');
 //where to look for it?
 app.set('views', '../views'); //default is views
-
+//static files
+app.use(express.static('../styles'));
 
 //listen for requests
 const server = app.listen(3000);
+
+//a middleware that fires everytime we get a request
+// app.use((req,res,next)=>{
+//     let hostname = req.hostname;
+//     console.log({hostname});
+//     next();
+// });
+
+//instead you may use morgan
+app.use(morgan('dev'));
 
 //get requests
 app.get('/',(req, res)=>{
