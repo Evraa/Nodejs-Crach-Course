@@ -1,18 +1,16 @@
 ## What to learn?
-    + install nodemon for auto refresh (globally)
-    + creating packages json file to keep track of any upcoming changes.
-    + install packages
+    + init Express framework.
+    + routing and rediricting.
 
 
 ## Keywords
-    + package.json (npm init)
-    + npm
-    + nodemon
-    + trying out (lodash) library
-    + npm install
+    + express
+    + res.send()
+    +
 
-## Requirement
+## Requirement (npm install)
 `sudo npm install -g nodemon`
+`npm install express`
 
 ## To Run:
-`nodemon 6_server.js`
+`nodemon app.js`   
