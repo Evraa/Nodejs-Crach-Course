@@ -1,12 +1,15 @@
 ## What to learn?
     + init Express framework.
-    + routing and rediricting.
+    + routing and redirecting.
 
 
 ## Keywords
     + express
     + res.send()
-    +
+    + res.sendFile()
+    + res.redirect()
+    + app.use()
+
 
 ## Requirement (npm install)
 `sudo npm install -g nodemon`
