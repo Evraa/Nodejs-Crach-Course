@@ -1,0 +1,27 @@
+{
+  "name": "laerning_node",
+  "version": "1.0.0",
+  "description": "## Requirements     1- Install nodejs     2- Install npm",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Evraa/Nodejs-Crach-Course.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Evraa/Nodejs-Crach-Course/issues"
+  },
+  "homepage": "https://github.com/Evraa/Nodejs-Crach-Course#readme"
+}
